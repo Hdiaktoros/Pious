@@ -1,0 +1,65 @@
+{
+    "name": "wnikk/laravel-access-rules",
+    "version": "2.0.12",
+    "description": "Simple system of ACR (access control rules) for Laravel, with roles, groups, unlimited inheritance and possibility of multiplayer use.",
+    "license": "MIT",
+    "keywords": [
+        "wnikk",
+        "laravel",
+        "permission",
+        "permissions",
+        "roles",
+        "rules",
+        "acl",
+        "acr",
+        "rbac",
+        "manager",
+        "security"
+    ],
+    "authors": [
+        {
+            "name": "Nikolay May",
+            "homepage": "https://nikk.dev",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/wnikk/laravel-access-rules",
+    "bugs": {
+        "url": "https://github.com/wnikk/laravel-access-rules/issues"
+    },
+    "require": {
+        "php": ">=7.4",
+        "illuminate/auth": "^8.0|^9.0|^10.0|^11.0",
+        "illuminate/container": "^8.0|^9.0|^10.0|^11.0",
+        "illuminate/contracts": "^8.0|^9.0|^10.0|^11.0",
+        "illuminate/database": "^8.0|^9.0|^10.0|^11.0",
+        "illuminate/cache": "^8.0|^9.0|^10.0|^11.0",
+        "illuminate/console": "^8.0|^9.0|^10.0|^11.0"
+    },
+    "require-dev": {
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Wnikk\\LaravelAccessRules\\": "src"
+        },
+        "files": [
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Wnikk\\LaravelAccessRules\\Test\\": "tests"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wnikk\\LaravelAccessRules\\AccessRulesServiceProvider"
+            ]
+        }
+    }
+}

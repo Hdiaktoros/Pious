@@ -1,0 +1,67 @@
+{
+    "name": "wnikk/laravel-access-ui",
+    "version": "1.3.5",
+    "description": "Interface of simple ACR (Access Control Rules) for Laravel.",
+    "license": "MIT",
+    "keywords": [
+        "wnikk",
+        "laravel",
+        "permission",
+        "permissions",
+        "roles",
+        "rules",
+        "acl",
+        "rbac",
+        "manager",
+        "security",
+        "ui",
+        "vue",
+        "grud"
+    ],
+    "authors": [
+        {
+            "name": "Nikolay May",
+            "homepage": "https://nikk.dev",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/wnikk/laravel-access-ui",
+    "bugs": {
+        "url": "https://github.com/wnikk/laravel-access-ui/issues"
+    },
+    "require": {
+        "php": ">=7.4",
+        "illuminate/auth": "^8.0|^9.0|^10.0|^11.0",
+        "illuminate/container": "^8.0|^9.0|^10.0|^11.0",
+        "illuminate/contracts": "^8.0|^9.0|^10.0|^11.0",
+        "illuminate/database": "^8.0|^9.0|^10.0|^11.0",
+        "illuminate/console": "^8.0|^9.0|^10.0|^11.0",
+        "wnikk/laravel-access-rules": "^2.0"
+    },
+    "require-dev": {
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Wnikk\\LaravelAccessUi\\": "src"
+        },
+        "files": [
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Wnikk\\LaravelAccessUi\\Test\\": "tests"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wnikk\\LaravelAccessUi\\AccessUiServiceProvider"
+            ]
+        }
+    }
+}

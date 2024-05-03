@@ -1,0 +1,41 @@
+{
+    "breadcrumbs": {
+        "rules": "Rules list",
+        "owners": "Owners list",
+        "inherit": "Edit inherit",
+        "permission": "Edit permission"
+    },
+    "rule": {
+        "create.title": "New rule",
+        "edit.title": "Title rule",
+        "edit.guard_name": "Technical name rule",
+        "edit.options": "Validation for parameter option",
+        "edit.description": "Description",
+        "delete.attention": "The rule when removing is deactivated.\n<br/>Please make sure that the rule is not used and after finally delete it from the database."
+    },
+    "owner": {
+        "create.title": "New owner",
+        "edit.type": "Type of owner",
+        "edit.name": "Fullname owner",
+        "edit.original_id": "External ID",
+        "delete.attention": "Be careful!!!<br/>Removal of the owner completely delete his permission and inheritance!"
+    },
+    "inherit": {
+        "create.title": "New inherit",
+        "create.owners": "Owner"
+    },
+    "permission": {
+        "edit.optioninfo": "This rule contains possible options, indicate the necessary option for installing a resolution or prohibition:",
+        "status.yes": "Allowed",
+        "status.no": "Forbidden",
+        "status.yes_inherit": "Allowed, inherited",
+        "status.no_inherit": "Forbidden, inherited"
+    },
+    "global": {
+        "inp.select": "Type to search",
+        "inp.select.noResult": "Oops! No elements found. Consider changing the search query.",
+        "btn.save": "Save",
+        "btn.delete": "Delete",
+        "btn.cancel": "Cancel"
+    }
+}
