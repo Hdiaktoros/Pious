@@ -6,6 +6,11 @@ use Illuminate\Http\Request;
 
 class WebsiteController extends Controller
 {
+    public function create()
+    {
+        return view('websites.create');
+    }
+
     public function createWebsite(Request $request)
     {
         $subfolderName = $request->input('subfolder_name');  // Ensure this input is sanitized and validated

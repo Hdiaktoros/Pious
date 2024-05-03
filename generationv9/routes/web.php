@@ -26,3 +26,6 @@ Route::post('/update-website', [WebsiteController::class, 'updateWebsite'])->nam
 
 // Route to delete a website
 Route::post('/delete-website', [WebsiteController::class, 'deleteWebsite'])->name('delete-website');
+
+Route::get('/websites/create', [WebsiteController::class, 'create'])->name('websites.create')->middleware('auth');
+Route::post('/websites', [WebsiteController::class, 'store'])->name('websites.store')->middleware('auth');
